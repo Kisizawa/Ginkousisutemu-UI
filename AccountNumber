@@ -1,0 +1,28 @@
+public class AccountNumber extends Account {
+
+	public static int next(int a) {
+		if(a==1) {
+			
+			AccountNum();
+		}
+		
+		
+		
+		return a;
+	}
+	
+	
+	public static void AccountNum(){
+		double a;
+		a = (Math.random()*900)+1000;
+		System.out.println("あなたのアカウント番号は");
+		System.out.println((int)a);
+		//setterを作る
+	}
+	
+	
+	
+	
+	
+
+}
