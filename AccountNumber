@@ -1,5 +1,6 @@
-public class AccountNumber extends Account {
 
+public class AccountNumber extends Account {
+	static int AccountNum;
 	public static int next(int a) {
 		if(a==1) {
 			
@@ -17,7 +18,9 @@ public class AccountNumber extends Account {
 		a = (Math.random()*900)+1000;
 		System.out.println("あなたのアカウント番号は");
 		System.out.println((int)a);
-		//setterを作る
+		
+		setAccountNum((int)a);
+		//setter
 		System.out.println("あなたのお名前は？");
 		String s=new java.util.Scanner(System.in).nextLine();
 		AccountName.setName(s);
@@ -31,10 +34,8 @@ public class AccountNumber extends Account {
 
 	public static void setAccountNum(int accountNum) {
 		AccountNum = accountNum;
-	}	
-	
-	
-	
+	}
+
 	
 	
 	
