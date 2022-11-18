@@ -1,4 +1,4 @@
-
+//ぶっちゃけこんなのDBで登録すればいいのに無駄に脳みそ使ったわ
 public class AccountNumber extends Account {
 	static int AccountNum;
 	public static int next(int a) {
